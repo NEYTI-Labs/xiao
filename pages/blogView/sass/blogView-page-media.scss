@@ -93,6 +93,10 @@
     &__head {
       display: flex;
       justify-content: space-between;
+      h4 {
+        line-height: 1.28;
+        font-size: 18px;
+      }
       button {
         background: transparent;
         border: none;
@@ -245,11 +249,6 @@
       &__wrapper {
         max-width: 328px;
       }
-        &__head {
-          h4 {
-            font-size: 18px;
-          }
-        }
         &_btn {
           gap: 12px;
           p {
