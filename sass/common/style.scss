@@ -246,7 +246,7 @@ button {
   h1 {
     font-size: 28px;
   }
-  h4 {
+  h4:not(.blogView-filter__head h4 ) {
     font-size: 18px;
   }
   p {

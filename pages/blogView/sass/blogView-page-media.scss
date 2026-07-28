@@ -144,7 +144,7 @@
   .blogView {
     gap: 24px;
     padding-bottom: 40px;
-    h4 {
+    h4:not(.blogView-filter__head h4 ) {
       font-size: 22px;
     }
     &-head {
@@ -175,6 +175,9 @@
     }
     &-subtitle {
       align-items: center;
+      h2 {
+        font-size: 22px;
+      }
     }
     &-desc {
     border-radius: 16px;
@@ -305,6 +308,9 @@
         }
         p {
             font-size: 14px;
+        }
+        h3 {
+          font-size: 22px;
         }
     }
   }
