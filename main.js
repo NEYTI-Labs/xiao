@@ -3,12 +3,12 @@ import 'swiper/css/bundle';
 
 import $ from 'jquery';
 
+window.$ = window.jQuery = $;
+
 import "./sass/_app.scss";
+import '@fancyapps/fancybox/dist/jquery.fancybox.min.css';
 
-import '@fancyapps/fancybox/dist/jquery.fancybox';
-import '@fancyapps/fancybox/dist/jquery.fancybox.css';
-
-
+await import('@fancyapps/fancybox/dist/jquery.fancybox.js');
 
 $('[data-fancybox]').fancybox({
   buttons: ['close'],
@@ -18,9 +18,9 @@ $('[data-fancybox]').fancybox({
   animationDuration: 366,
 
   thumbs: {
-    autoStart: true,   
+    autoStart: true,
     hideOnClose: true,
-    axis: 'x' 
+    axis: 'x'
   },
 
   afterShow: function (instance, current) {
