@@ -1,14 +1,12 @@
 import Swiper from 'swiper/bundle';
-
 import 'swiper/css/bundle';
 
 import $ from 'jquery';
 
 import "./sass/_app.scss";
 
-import '@fancyapps/fancybox';
-
-import '@fancyapps/fancybox/dist/jquery.fancybox.min.css';
+import '@fancyapps/fancybox/dist/jquery.fancybox';
+import '@fancyapps/fancybox/dist/jquery.fancybox.css';
 
 
 
